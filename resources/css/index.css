@@ -1,0 +1,67 @@
+*{
+    font-family: Montserrat;
+}
+.h1{
+    width:86%;
+    height:8vh;
+    margin:auto;
+    padding:0 .6rem;
+}
+h1{
+    height: auto;
+}
+.h1 p{
+    margin-top: 1rem;
+    border:1px solid palevioletred;
+    width:4%;
+    height:1.5vh;
+    border-radius: 10px;
+    background-color: rgb(220, 90, 220);
+    
+}
+.sub-head{
+    width: 87%;
+    padding: 1rem;
+    margin: auto;
+   
+}
+.sub-head p{
+    color: rgb(104, 103, 103);
+}
+.data{
+    /* border: 1px solid black; */
+    width: 85%;
+    min-height: 10vh;
+    margin: auto;
+}
+
+.e-image{
+    height:60%;
+    width:100%;
+    object-fit: cover;
+}
+.c-body{
+    margin-top:1rem;
+    margin: 0 .5rem;
+}
+.accordion-body{
+    width:100%;
+    /* border: 1px solid red; */
+    /* height: 60vh; */
+    padding:0;
+}
+.carousel-inner{
+    width: 100%;
+}
+
+@media(max-width:577px){
+    .h1 p{
+        width: 8%;
+    }
+    .h1{
+        width:87%;
+    }
+    .sub-head{
+        width: 90%;
+    }
+}
